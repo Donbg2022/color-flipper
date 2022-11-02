@@ -10,7 +10,12 @@ button.addEventListener('click', function(){
   let blue = Math.floor(Math.random() * 255);
 
 //change the color of the html page
-  html.style.backgroundColor = (`rgb(${red},${green}, ${blue})`) 
+  html.style.backgroundColor = (`rgb(${red},${green},${blue})`) 
+
+
+  //changes P text to what the rgb value is 
+  p.innerText = `rgb(${red},${green},${blue})`
+
   
 
 })

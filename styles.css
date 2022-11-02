@@ -2,5 +2,8 @@
   text-align: center;
 }
 p{
-  padding: 10rem;
+  margin: 10rem auto 10rem auto;
+  font-size: x-large;
+  background-color: white;
+  max-width:270px;
 }
